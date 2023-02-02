@@ -6,9 +6,13 @@ terraform {
     null = {
       version = "~> 3.1.1"
     }
-    template ={
-       version= "~> 2.2.0"       
+    template = {
+      version = "~> 2.2.0"
 
+    }
+    cloudflare = {
+      source  = "cloudflare/cloudflare"
+      version = "~> 3.0"
     }
   }
 
